@@ -66,11 +66,11 @@ a {
 }
 
 .profile-photo {
-  width: 150px;
-  height: 150px;
+  width: 84px;
+  height: 84px;
   object-fit: cover;
   object-position: center top;
-  border-radius: 24px;
+  border-radius: 18px;
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
   flex-shrink: 0;
@@ -236,7 +236,7 @@ body.alt-accent {
   }
 
   .profile-photo {
-    width: 110px;
-    height: 110px;
+    width: 72px;
+    height: 72px;
   }
 }
