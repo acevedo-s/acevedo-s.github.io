@@ -92,7 +92,8 @@ a {
 .section-label {
   margin: 0 0 12px;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 0.82rem;
+  font-size: 0.92rem;
+  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
@@ -106,9 +107,10 @@ ul {
 }
 
 h1 {
-  font-size: clamp(2.8rem, 6vw, 5.5rem);
+  font-size: clamp(2.2rem, 4.5vw, 4.1rem);
   line-height: 0.98;
-  max-width: 8ch;
+  max-width: none;
+  white-space: nowrap;
   margin-bottom: 12px;
 }
 
@@ -198,6 +200,30 @@ main {
   border: 1px solid var(--border);
   font-family: "IBM Plex Mono", monospace;
   font-size: 0.92rem;
+}
+
+.paper-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.paper-list li + li {
+  margin-top: 16px;
+}
+
+.paper-list a {
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.paper-list span {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.88rem;
 }
 
 body.alt-accent {
